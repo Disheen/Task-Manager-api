@@ -5,7 +5,7 @@ const bcrytpjs=require('bcryptjs')
 const app= express()
 const TaskRouter=require('./Router/taskRouter')
 const port=process.env.PORT
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('Port '+port+ ' listening')
 
 })
